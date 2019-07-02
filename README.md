@@ -1,6 +1,7 @@
 # ADS1115 Sensor PSI Sketch
 
-This "sketch" is dedicated to record FOUR analog sensors attached to an ADS1115 chip.  Ive attached PSI transducers. I've chosen to not use the ADS1115 library and instead flattened the functions I needed into this code.  I only needed two functions provided by the library:  
+This "sketch" is dedicated to record FOUR analog sensors attached to an ADS1115 chip.  Ive attached PSI transducers. I've chosen to not use the ADS1115 library and instead flattened the functions I needed into this code.  I only needed two functions provided by the library:
+
 [1] start/configure an A2D conversion on one of the four channels (write_PSIadcConfigRegister) AND 
 [2] read the A2D result from a previous A2D conversion (read_PSIadcConversionRegister)
 
